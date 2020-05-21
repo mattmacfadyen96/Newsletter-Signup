@@ -8,5 +8,6 @@ This project is a newsletter-sign up so you can enter your first name, last name
 You must have npm, express and node installed to run this project. 
 
 1.) cd into the directory of the project and run: npm install body-parser express request
+2.) Create a Config.js file that will contain the Mailchimp API key
 2.) Run node app.js and and this will launch the application
 3.) From there you can enter information and it will be sent to the Mailchimp servers
