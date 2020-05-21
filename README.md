@@ -5,7 +5,7 @@ About this project:
 
 This project is a newsletter-sign up so you can enter your first name, last name and email. The data will be sent to the Mailchimp servers and saved there. The front end of the application uses HTML, CSS and Bootstrap. The backend of the application is written in Node.js and uses Express.js to interact with the Mailchimp API.  
 
-You must have npm, express and node installed to run this project. 
+<em>You must have npm, express and node installed to run this project.</em>
 
 1.) cd into the directory of the project and run: npm install body-parser express request
 2.) Create a Config.js file that will contain the Mailchimp API key
