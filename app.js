@@ -3,6 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
 const https = require("https");
+const config = require("./config");
 
 const app = express();
 const port = 3000;
@@ -36,8 +37,7 @@ app.post("/", function(req, res) {
   const url = "https://us18.api.mailchimp.com/3.0/lists/6d800c7610"
   const options = {
     method: "POST",
-    auth: "matthew1:ef07f6b9aaa79b88414df7c1cb23d527-us18"
-
+    auth: "matthew1:" + config.mailchimpAPIKey
   }
 
   const request = https.request(url, options, function(response) {
